@@ -1,0 +1,106 @@
+/* line 1, ../sass/page1.scss */
+* {
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+/* line 6, ../sass/page1.scss */
+body {
+  color: #1f1f1f;
+  font-size: 16px;
+  position: relative;
+  height: 100%;
+  background: url("/images/sadpuppy3.png") right bottom no-repeat #fdd140;
+  background-size: 60%;
+}
+
+/* line 15, ../sass/page1.scss */
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, ../sass/page1.scss */
+.content {
+  margin-left: 5em;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 1em;
+}
+/* line 27, ../sass/page1.scss */
+.content h1 {
+  font-size: 12em;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+/* line 35, ../sass/page1.scss */
+.content h3 {
+  font-size: 2em;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+/* line 42, ../sass/page1.scss */
+.content h3 a {
+  font-size: 1em;
+  display: inline-block;
+  margin-top: .3em;
+  border: .1em black solid;
+  padding: 0 1em;
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 55, ../sass/page1.scss */
+  body {
+    overflow: hidden;
+    background-size: 100%;
+  }
+
+  /* line 59, ../sass/page1.scss */
+  .content {
+    font-size: 16px;
+    margin-left: 1em;
+  }
+  /* line 62, ../sass/page1.scss */
+  .content h1 {
+    font-size: 2em;
+  }
+  /* line 64, ../sass/page1.scss */
+  .content h3 {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+  /* line 67, ../sass/page1.scss */
+  .content h3 a {
+    margin-top: 1em;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  /* line 75, ../sass/page1.scss */
+  body {
+    background-size: 100%;
+  }
+
+  /* line 78, ../sass/page1.scss */
+  .content {
+    font-size: 20px;
+    margin-left: 1em;
+  }
+  /* line 81, ../sass/page1.scss */
+  .content h1 {
+    font-size: 3em;
+  }
+  /* line 83, ../sass/page1.scss */
+  .content h3 {
+    font-size: 1em;
+  }
+}
